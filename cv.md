@@ -3,7 +3,7 @@
 #### **E-mail:** aleksandrnar2005@gmail.com  
 #### **Telegram:** @AleXthunder_18  
 ## Briefly About Myself:
-#### I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is the very interest, so I want to learn a lot of technology to be able to do as much as possible.
+#### I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is very interest, so I want to learn a lot of technology to be able to do as much as possible.
 ## Skills:
 * Java
 * Git/GitHub
