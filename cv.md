@@ -1,19 +1,15 @@
 # Aleksandr Narivonchik
-===
 ## Contact information:
-** E-mail: ** aleksandrnar2005@gmail.com
-** Telegram: ** @AleXthunder_18
-===
+#### **E-mail:** aleksandrnar2005@gmail.com  
+#### **Telegram:** @AleXthunder_18  
 ## Briefly About Myself:
-I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is the very interest, so I want to learn a lot of technology to be able to do as much as possible.
-===
+#### I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is the very interest, so I want to learn a lot of technology to be able to do as much as possible.
 ## Skills:
 * Java
 * Git/GitHub
 * Figma
-===
 ## Code example:
-** Task: ** *** Find the minimum path between two vertices of the graph using the Ford-Bellman algorithm ***
+#### Task: *Find the minimum path between two vertices of the graph using the Ford-Bellman algorithm:*
 ```
     private static int findMinWay(ArrayList<Integer>[] incidentLists, Edge[] edges, int src, int dest) {
         int n = incidentLists.length;
@@ -36,9 +32,7 @@ I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics 
             return dist[dest-1];
     }
 ```
-===
 ## Education:
-First-year student of BSUIR
-===
+#### First-year student of BSUIR
 ## Languages:
-English: *** Pre-Intermediate ***
+#### English: ***Pre-Intermediate***
