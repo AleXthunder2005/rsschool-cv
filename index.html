@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<meta charset="UTF-8">
-<title>Page Title</title>
-</head>
-<body>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aleksandr Narivonchik</title>
+  </head>
+  <body>
+    <header>
+      <h1>Aleksandr Narivonchik</h1>
+    </header>
+    <main>
+      <img src="https://github.com/AleXthunder2005/SeeFight/blob/main/photo_2024-07-07_22-57-06.jpg" alt="avatar" width="100" height="200">
+      <nav>
+        <ul>
+          <li>Contact information</li>
+          <li>Briefly about myself</li>
+          <li>Skills</li>
+          <li>Code example</li>
+          <li>Expirience</li>
+          <li>Education</li>
+          <li>Languages</li>
+        </ul>
+      </nav> 
+      <section>
+        <h2>Contact information:</h2>
+        <ul>
+          <li>E-mail: aleksandrnar2005@gmail.com</li>
+          <li>Telegram: @AleXthunder_18</li>
+        </ul> 
+      </section>
+      <section>
+        <h2>About me:</h2>
+        <p>I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is very interest, so I want to learn a lot of technology to be able to do as much as possible.</p>  
+      </section>
+      <section> 
+        <h2>Skills:</h2>
+        <ul>
+          <li>Java</li>
+          <li>Git/GitHub</li>
+          <li>Figma</li>
+        </ul> 
+      </section>
+      <section>
+      <h2>Code example:</h2>
+      <p>Task: Find the minimum path between two vertices of the graph using the Ford-Bellman algorithm:</p>
+      <pre>
+        <code>
+          private static int findMinWay(ArrayList&lt;Integer&amp;rt;[] incidentLists, Edge[] edges, int src, int dest) {
+        int n = incidentLists.length;
+ 
+        int[] dist = new int[n];
+        for(int i = 0; i &lt; n; i++){
+            dist[i] = Integer.MAX_VALUE;
+        }
+        dist[src-1] = 0;
+ 
+        for (int i = 0; i &lt; n-1; i++){
+            for (int j = 0; j &lt; edges.length; j++){
+                if ((dist[edges[j].src - 1] != Integer.MAX_VALUE) && (dist[edges[j].src - 1] + edges[j].weight &lt; dist[edges[j].dest - 1]))
+                    dist[edges[j].dest - 1] = dist[edges[j].src - 1] + edges[j].weight;
+            }
+        }
+        if (dist[dest-1] == Integer.MAX_VALUE)
+            return -1;
+        else
+            return dist[dest-1];
+    } 
+          </code>
+        </pre>
+      </section>
+      <section>
+        <h2>Expirience:</h2>
+        <p>The game "Advanced sea fight" which gives the user the opportunity to use bonus aviation. The game has a rival bot, soundtrack and customization.</p>
+        <a href="https://github.com/AleXthunder2005/SeeFight/tree/main">Link to the "Sea Fight" github-repository</a> 
+        <p>There are no other major projects yet.</p>
+      </section>
+      <section>
+        <h2>Education:</h2>
+        <p>First-year student of BSUIR.</p> 
+      </section>
+      <section>
+        <h2>Languages:</h2>
+        <ul>
+          <li><b>Russian</b>: <i>Native</i></li> 
+          <li><b>English</b>: <i>Pre-Intermediate</i></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/AleXthunder2005">GitHub: Narivonchik Aleksandr</a>
+      <p>2024</p>
+      <img src="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg" alt="course icon">
+      <br>
+      <a href="https://rs.school/courses/javascript-ru">JavaScript / Front-end Course</a>
+    </footer>
+  </body>
 </html>
