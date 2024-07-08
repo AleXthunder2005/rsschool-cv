@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Aleksandr Narivonchik</title>
   </head>
   <body>
@@ -9,32 +10,42 @@
       <h1>Aleksandr Narivonchik</h1>
     </header>
     <main>
-      <img src="images/photo.jpg" alt="photo" width="200" height="350">
+      <div class="main-menu">
       <nav>
         <ul>
-          <li>
-            <a href="#info">Contact information</a>
-          </li>
-          <li>
+          <li class="list-item">
             <a href="#about">About me</a>
           </li>
-          <li>
+          <li class="list-item">
+            <a href="#info">Contact information</a>
+          </li>
+          <li class="list-item">
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="#code">Code example</a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="#expirience">Expirience</a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="#education">Education</a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="#languages">Languages</a>
           </li>
         </ul>
-      </nav> 
+      </nav>
+      </div>  
+      
+      <div class="about-container">
+        <img src="images/photo.jpg" alt="photo" width="200" height="350">
+        <section id="about">
+          <h2>About me:</h2>
+          <p>I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is very interest, so I want to learn a lot of technology to be able to do as much as possible.</p>  
+        </section>
+      </div>
+      
       <section id="info">
         <h2>Contact information:</h2>
         <ul>
@@ -42,18 +53,39 @@
           <li>Telegram: @AleXthunder_18</li>
         </ul> 
       </section>
-      <section id="about">
-        <h2>About me:</h2>
-        <p>I'm Aleksandr and i'm 18. I study at Belarusian State University of Informatics and Radioelectronics (BSUIR). In my opinion, a job of Software Developer is very interest, so I want to learn a lot of technology to be able to do as much as possible.</p>  
+        
+      <div id="info-container">  
+        
+        <section id="education">
+          <h2>Education:</h2>
+          <p>First-year student of BSUIR.</p> 
+        </section>
+        
+        <section id="skills"> 
+          <h2>Skills:</h2>
+          <ul>
+            <li>Java</li>
+            <li>Git/GitHub</li>
+            <li>Figma</li>
+          </ul> 
+        </section>
+      
+          <section id="languages">
+          <h2>Languages:</h2>
+          <ul>
+            <li><b>Russian</b>: <i>Native</i></li> 
+            <li><b>English</b>: <i>Pre-Intermediate</i></li>
+          </ul>
+        </section>
+      </div>
+      
+      <section id="expirience">
+        <h2>Expirience:</h2>
+        <p>The game "Advanced sea fight" which gives the user the opportunity to use bonus aviation. The game has a rival bot, soundtrack and customization.</p>
+        <a href="https://github.com/AleXthunder2005/SeeFight/tree/main">Link to the "Sea Fight" github-repository</a> 
+        <p>There are no other major projects yet.</p>
       </section>
-      <section id="skills"> 
-        <h2>Skills:</h2>
-        <ul>
-          <li>Java</li>
-          <li>Git/GitHub</li>
-          <li>Figma</li>
-        </ul> 
-      </section>
+      
       <section id="code">
       <h2>Code example:</h2>
       <p>Task: Find the minimum path between two vertices of the graph using the Ford-Bellman algorithm:</p>
@@ -82,30 +114,16 @@
           </code>
         </pre>
       </section>
-      <section id="expirience">
-        <h2>Expirience:</h2>
-        <p>The game "Advanced sea fight" which gives the user the opportunity to use bonus aviation. The game has a rival bot, soundtrack and customization.</p>
-        <a href="https://github.com/AleXthunder2005/SeeFight/tree/main">Link to the "Sea Fight" github-repository</a> 
-        <p>There are no other major projects yet.</p>
-      </section>
-      <section id="education">
-        <h2>Education:</h2>
-        <p>First-year student of BSUIR.</p> 
-      </section>
-      <section id="languages">
-        <h2>Languages:</h2>
-        <ul>
-          <li><b>Russian</b>: <i>Native</i></li> 
-          <li><b>English</b>: <i>Pre-Intermediate</i></li>
-        </ul>
-      </section>
     </main>
+    
     <footer>
       <a href="https://github.com/AleXthunder2005">GitHub: Narivonchik Aleksandr</a>
       <p>2024</p>
-      <img src="images/rs-school-logo.svg" alt="course icon" width="200" height="100">
-      <br>
-      <a href="https://rs.school/courses/javascript-ru">JavaScript / Front-end Course</a>
+      <div>
+        <img id="course-icon" src="images/rs-school-logo.svg" alt="course icon" width="200" height="100">
+        <br>
+        <a href="https://rs.school/courses/javascript-ru">JavaScript / Front-end Course</a>
+      </div>
     </footer>
   </body>
 </html>
